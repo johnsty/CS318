@@ -1,0 +1,13 @@
+/** Style Sheet for lab 06 Two-by-two **/
+.square {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    display:inline-block;
+}
+
+#highlighted {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+}

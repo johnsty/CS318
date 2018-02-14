@@ -1,0 +1,15 @@
+/** Style Sheet for lab 06 pokemon **/
+body {
+    background-color: seashell;
+}
+
+h3 {
+    color:#0078d7;
+    font-size: 24pt;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 4px 1px 5px #000000;
+}
+
+p {
+    font-family: 'Slabo 27px', serif;
+}
