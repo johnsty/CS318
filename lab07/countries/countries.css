@@ -1,0 +1,35 @@
+/** Style Sheet for lab 07 countries **/
+
+.stamp {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: dashed;
+    border-color: aquamarine;
+    box-shadow: 5px 10px;
+    background-position: top right, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto 75px, auto 300px;
+}
+
+#germany {
+    background-image: url("images/germany_flag.gif"), url("images/germanyjpg.jpg");
+}
+
+#italy {
+    background-image: url("images/italy_flag.gif"), url("images/italy.jpg");
+}
+
+#spain {
+    background-image: url("images/spain_flag.gif"), url("images/spain.jpg");
+}
+
+#mexico {
+    background-image: url("images/mexico_flag.gif"), url("images/mexico.jpg");
+}
+
+body {
+    background-color: lightblue;
+}
