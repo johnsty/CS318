@@ -1,0 +1,54 @@
+/** Style Sheet for lab 08 debate **/
+.blurb {
+    width: 90%;
+    box-shadow: 0 4px 5px #000000;
+    font-family: 'Lobster', cursive;
+    border: solid;
+    border-width: 1px;
+    min-height: 202px;
+    min-width: 400px;
+    background-size: auto 200px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+}
+
+.blurb.left {
+    background-color: salmon;
+    background-image: url("images/abraham_lincoln.jpg");
+    background-repeat: no-repeat;
+    border-radius: 0 40px 40px 0;
+    padding-left: 165.594px;
+    padding-right: 20px;
+}
+
+.blurb.right {
+    background-color: aquamarine;
+    margin-left: auto;
+    background-image: url("images/noam_chomsky.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 40px 0 0 40px;
+    padding-right: 135px;
+    padding-left: 20px;
+}
+
+ body {
+     margin: 0;
+ }
+
+ .heading {
+    background: linear-gradient(to right, salmon , aquamarine);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    box-shadow: inset 0 0 30px white;
+    padding: 30px;
+    margin-bottom: 20px;
+ }
+
+.l {
+     color: #00ba7b;
+ }
+
+ .r {
+    color: #8f1305;
+}
