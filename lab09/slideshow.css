@@ -1,0 +1,35 @@
+/** Style Sheet for lab 09 slideshow **/
+.non-white-background {
+    background-color: lightsteelblue;
+}
+
+#panel {
+    position: fixed;
+    left: 50px;
+    right: 50px;
+    top: 50px;
+    bottom: 50px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#picture {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.arrow {
+    position: fixed;
+    top: calc(50% - 20px);
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.arrow.arrow-left {
+    left: 5px;
+}
+
+.arrow.arrow-right {
+    right: 5px;
+}
