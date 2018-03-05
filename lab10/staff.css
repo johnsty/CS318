@@ -1,0 +1,48 @@
+/* Lab10 bulletin board css assignment */
+.photo {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    border-radius: 100px;
+    box-shadow: 10px 10px 20px #000000;
+    margin: 10px;
+    position: relative;
+}
+
+.photo:hover {
+    box-shadow: 2px 2px 5px #000000;
+    top: 3px;
+    left: 3px;
+}
+
+#jack_tan {
+    background-size: 100%;
+    background-image: url("https://cdn.uwec.edu/athena/images/5275/Jack_Tan_2016-three-four-portrait.jpg")
+}
+
+#heather_amthauer {
+    background-size: 100%;
+    background-image: url("https://cdn.uwec.edu/athena/images/5274/Heather_Amthauer_2016-three-four-portrait.jpg")
+}
+
+#ryan_hardt {
+    background-size: 100%;
+    background-image: url("https://cdn.uwec.edu/athena/images/5277/Ryan_Hardt_2016-three-four-portrait.jpg")
+}
+
+#christopher_johnson {
+    background-size: 100%;
+    background-image: url("https://cdn.uwec.edu/athena/images/5271/20160503_Chris_Johnson-three-four-portrait.jpg")
+}
+
+.name {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: aqua;
+    text-shadow: 2px 2px 5px #000000;
+    position: absolute;
+    bottom: 3px;
+    left: calc(50% - 30px);
+    text-align: center;
+}

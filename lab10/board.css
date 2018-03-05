@@ -1,0 +1,55 @@
+/* Lab10 bulletin board css assignment */
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    background-image: url("cork.jpg");
+}
+
+.photo {
+    background-color: deepskyblue;
+    margin: 2%;
+    padding: 10px 9px 20px 9px;
+    width: 220px;
+    position: relative;
+    box-shadow: -10px 10px 40px #000000;
+    display: inline-block;
+}
+
+.pushpin {
+    width: 60px;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+}
+
+.animal-img {
+    width: 200px;
+}
+
+@font-face {
+    font-family: Marker;
+    src: url(PermanentMarker.ttf);
+}
+
+.label {
+    font-family: Marker;
+    position: absolute;
+    left: calc(50% - 20px);
+    font-size: 20px;
+    bottom: .5px;
+}
+
+#duck {
+    transform: rotate(-5deg);
+}
+
+#cow {
+    transform: rotate(-1deg);
+}
+
+#horse {
+    transform: rotate(-2deg);
+}
+
