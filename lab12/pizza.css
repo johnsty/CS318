@@ -32,6 +32,7 @@ nav {
     font-family: cabin-sketch,sans-serif;
     text-align: center;
     font-size: 40pt;
+    font-weight: bold;
     background-color: coral;
     vertical-align: middle;
     padding-top: 15px;
@@ -90,7 +91,21 @@ nav {
 .order-now {
     position: fixed;
     width: 92.500px;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 0; right: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+.order-now-text {
+    position: fixed;
+    width: 92.500px;
+    top: 0; right: 0;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    padding-top: 30px; 
+    font-family: cabin-sketch,sans-serif;
+    text-shadow: 1px 1px 6px black;
 }
 
 /* the footer will appear at the bottom of the page */
@@ -106,4 +121,21 @@ nav {
 	font-family: cabin-sketch,sans-serif;
 	color:white;
 	text-align:center;
+}
+
+.pizza-heading {
+    font-family: cabin-sketch,sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+    float: left;
+}
+
+.pizza-description {
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.pizza-image img {
+    width: 20%;
+    float: right;
 }
