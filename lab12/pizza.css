@@ -1,0 +1,109 @@
+/* Lab12 pizza css assignment */
+html {
+    background-color: #db536b;
+}
+
+/* the container that will hold all the contents on the site */
+#container {
+    align-content: center;
+    width:600px;
+	margin: 0 auto;
+    box-shadow: 0 0 40px #000000;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/* Displays the pizza background it is a fixed ratio*/
+nav {
+    float:left;
+    width:30%;
+    background-color:#000000;
+    opacity: 0.8;
+    height: calc(100% - 95px);
+}
+
+/* Displays the pizza background it is a fixed ratio*/
+#mainImage {
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    color: black;
+    font-family: cabin-sketch,sans-serif;
+    text-align: center;
+    font-size: 40pt;
+    background-color: coral;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+#menuBar {
+    float:left;
+    width:30%;
+    background-color:#000000;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+/* creates an unordered list element for the menu bar*/
+#menuBar ul {
+	list-style-type: none;
+    margin: 0px;
+    font-size: 35px;
+    padding: 5px;
+}
+
+#menuBar ul li {
+    margin-bottom: 5px;
+    font-family: cabin-sketch,sans-serif;
+}
+
+#menuBar li a {
+	display: inline;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	font-family: cabin-sketch,sans-serif;
+	margin: 0% 7.5% 0% 7.5%;
+}
+
+.content {
+    float:left;
+    width:68%;
+    align-content: center;
+    padding:  0 5px 5px 5px;
+}
+
+.main-content-img {
+    width: 100%;
+}
+
+.content-text {
+    font-family: sans-serif;
+}
+
+.post-text {
+    text-align: center;
+    font-family: cabin-sketch,sans-serif;
+}
+
+.order-now {
+    position: fixed;
+    width: 92.500px;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/* the footer will appear at the bottom of the page */
+#footer {
+	width:99.8%;
+	display:inline-block;
+	padding: 0% 0% .25% 0%;
+	border-width: thin;
+	border-style:none;
+}
+
+#footerText {
+	font-family: cabin-sketch,sans-serif;
+	color:white;
+	text-align:center;
+}
