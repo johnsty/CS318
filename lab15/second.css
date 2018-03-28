@@ -1,0 +1,57 @@
+/* CSS for the lab15 midterm exam part 2 */
+html {
+    background-image: url(brimstone.png);
+}
+
+body {
+    position: absolute;
+}
+
+h1 {
+    color: orange;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    border-left: 5px;
+    border-left: 5px solid #FFCC00;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 75px;
+    padding-left: 3px;
+}
+
+.fixed-fire {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#paragraph7 {
+    margin-bottom: 38%;
+}
+
+.nav {
+    background-color: #FFCC00;
+    width: 120px;
+    padding: 10px;
+    border-left: 5px solid #FFCC00;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #FFCC00;
+    float: right;
+}
+
+.main {
+    float: left;
+}
+
+a {
+    color: purple
+}
+
+#quick-links {
+    margin: 0;
+}

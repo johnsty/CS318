@@ -1,0 +1,73 @@
+/* CSS for the lab15 midterm exam part 1 */
+.theBody {
+    max-width: 845px;
+}
+
+.img-float-left {
+    float: left;
+    padding-right: 15px;
+}
+
+.img-float-right {
+    float: right;
+    padding-left: 15px;
+}
+
+img {
+    width: 425px;
+}
+
+figure {
+    margin: 0;
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+}
+
+.figcaption-float-left {
+    background-color: rgb(139,69,19, .75);
+    color: rgb(255,222,173);
+    width: 105px;
+    top: 0;
+    display: block;
+}
+
+.figcaption-float-right {
+    background-color: rgb(139,69,19, .75);
+    color: rgb(255,222,173);
+    width: 105px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+
+    .img-float-left {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .img-float-right {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .figcaption-float-left {
+        right: 50px;
+    }
+}
+
+@media (min-width: 600px) {
+    .figcaption-float-left {
+        left: 270px;
+    }
+}
