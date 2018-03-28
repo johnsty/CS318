@@ -24,6 +24,8 @@ figure {
 
 figcaption {
     position: absolute;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .figcaption-float-left {
