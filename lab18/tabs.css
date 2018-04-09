@@ -1,0 +1,56 @@
+/* CSS for lab17 - tabs - */
+
+.tab {
+    display: inline-block;
+    background-color: lightsteelblue;
+    width: 70px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.tab:focus {
+    background-color: steelblue;
+}
+
+#parent {
+    position: relative;
+    display: inline-block;
+}
+
+.panel {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: steelblue;
+}
+
+#panel0 {
+    background-color: lightsteelblue;
+    display: block;
+}
+
+#panel1 {
+    display: none;
+}
+
+#panel2 {
+    display: none;
+}
+
+#panel3 {
+    display: none;
+}
+
+#tab1:focus ~ #panel1 {
+    display: block;
+}
+
+#tab2:focus ~ #panel2 {
+    display: block;
+}
+
+#tab3:focus ~ #panel3 {
+    display: block;
+}
