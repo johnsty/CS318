@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="icecream.css">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <form method="POST" action="https://formspree.io/johnsty@uwec.edu"
+       >
+            <h1>Chillax Order Form</h1>
+            <div>
+                <label>Who are you?</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>What flavor?</label>
+                <select name="flavor">
+                    <option value="chocolate">Chocolate</option>
+                    <option value="strawberry">Strawberry</option>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="mint-chocolate-chip">Mint Chocolate Chip</option>
+                  </select>
+            </div>
+            <div>
+                <label>In what?</label>
+                <select name="dish">
+                    <option value="waffle">Waffle</option>
+                    <option value="sugar">Sugar</option>
+                    <option value="dish">Dish</option>
+                  </select>
+            </div>
+            <div>
+                <label>Sprinkles?</label>
+                <input type="checkbox" name="sprinkles" style="width: auto;">
+            </div>
+            <div>
+                <label>How messy are you?</label>
+                <input type="range" name="messy">
+            </div>
+            <button name="submit" type="submit">Order</button>
+        </form>
+    </body>
+</html>

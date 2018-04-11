@@ -1,0 +1,33 @@
+/* CSS for lab 19 Ice Cream */
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: cornflowerblue;
+}
+
+label {
+    width: 25%;
+    text-align: right;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+input {
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+
+select {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 1%;
+}
+
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

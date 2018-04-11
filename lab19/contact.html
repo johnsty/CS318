@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <title>Contact Form</title>
+    </head>
+    <body> 
+        <form method="POST" action="https://formspree.io/johnsty@uwec.edu"
+       >
+            <div>
+                <label>Name:</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="text" name="email">
+            </div>
+            <div>
+                <label>Subject:</label>
+                <input type="text" name="subject">
+            </div>
+            <textarea name="message" rows="4" placeholder="What's on your mind?"></textarea>
+            <button name="submit" type="submit">Send</button>
+        </form>
+    </body>
+</html>
