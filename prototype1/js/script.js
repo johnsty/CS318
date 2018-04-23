@@ -21,7 +21,7 @@ function closeNav() {
 }
 
 function scrollToID() {
-    document.getElementById("mainText").scrollIntoView({ 
+    document.getElementById("page-header").scrollIntoView({ 
         behavior: 'smooth' 
     });
 }
