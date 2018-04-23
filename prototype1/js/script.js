@@ -21,7 +21,13 @@ function closeNav() {
 }
 
 function scrollToID() {
-    document.getElementById("container").scrollIntoView({ 
-        behavior: 'smooth' 
+    //document.getElementById("container").scrollIntoView({ 
+      //  behavior: 'smooth' 
+    //});
+    var windowHeight = window.innerHeight;
+    window.scrollBy({
+        "behavior": "smooth",
+        "left": 0,
+        "top": windowHeight
     });
 }
