@@ -13,7 +13,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
-    document.getElementById("click-to-scroll").style.marginLeft = "0";
+    document.getElementById("click-to-scroll").style.marginLeft = "auto";
     document.getElementById("mobile-nav-menu").style.marginLeft = "0";
     document.getElementById("mobile-nav-menu").classList.remove('open-nav');
     document.getElementById("signature").style.marginLeft = "0";
