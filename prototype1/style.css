@@ -394,3 +394,9 @@ p {
     margin-right: auto;
     margin-left: auto;
 }
+
+@media screen and (max-height: 1200px) {
+    .carousel-thumbnail-img {
+        width: 18%;
+    }
+}
